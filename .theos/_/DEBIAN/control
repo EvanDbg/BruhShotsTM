@@ -1,0 +1,10 @@
+Package: com.tr1fectacam.bruhshotstm
+Name: BruhShotsTM
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, com.rpetrich.rocketbootstrap (>= 1.0.7~beta1)
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Tr1Fecta
+Author: Tr1Fecta
+Section: Tweaks
+Version: 0.0.1-121+debug
+Installed-Size: 452
