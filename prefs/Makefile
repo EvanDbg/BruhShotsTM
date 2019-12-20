@@ -9,6 +9,7 @@ prefs_FILES = BSTMRootListController.m
 prefs_INSTALL_PATH = /Library/PreferenceBundles
 prefs_FRAMEWORKS = UIKit
 prefs_PRIVATE_FRAMEWORKS = Preferences
+prefs_EXTRA_FRAMEWORKS = Cephei CepheiPrefs
 prefs_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/bundle.mk

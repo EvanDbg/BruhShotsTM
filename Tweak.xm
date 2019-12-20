@@ -41,7 +41,6 @@ static BOOL GetPrefBool(NSDictionary *settings, NSString* key, BOOL fallback) {
 	if (!settings) {
 		settings = (NSMutableDictionary *)prefsDictionary();
     	NSNumber* value = [settings objectForKey:key];
-		//NSLog(@"[Folders6]: KEY: %@ BOOL: %@", key, value);
     	return value ? [value boolValue] : fallback;
 	}
 
@@ -103,12 +102,9 @@ void soundCompleteCallback(SystemSoundID soundID, void * clientData) {
 
 -(void)_saveImageToPhotoLibrary:(UIImage *)image environmentDescription:(id)env {
 	if (tweakEnabled && watermarkingEnabled) {
-		NSLog(@"[BruhShotsTM]: SCREENSHOT SOUND IN FUNCTIO22222N: %d", screenshotSoundEnabled);
 		WatermarkRotation rotation = [self currentRotation];
 		UIImage *watermarkBruhImage = [UIImage drawText:watermarkingText diagonallyOnImage:image alpha:watermarkingAlpha fontSize:watermarkingFontSize rotation:rotation];
 		%orig(watermarkBruhImage, env);
-		//NSLog(@"[BruhShotsTM]: ARRAY: %@", GetObjectForKey(nil, @"kWatermarkingRotation", nil));
-		//BOOL test = [GetObjectForKey(nil, @"kWatermarkingRotation", nil) isKindOfClass:[NSString class]];
 	}
 	else {
 		%orig(image, env);
@@ -135,7 +131,6 @@ void soundCompleteCallback(SystemSoundID soundID, void * clientData) {
 	else {
 		rotation = WatermarkRotation45ltr;
 	}
-
 	return rotation;
 }
 
