@@ -1,4 +1,4 @@
-/Users/tr1fecta/Tweaks/bruhshotstm/.theos/obj/arm64e/Tweak.xm.c3834382.o: \
+/Users/tr1fecta/Tweaks/bruhshotstm/.theos/obj/arm64e/Tweak.xm.d3e9a74d.o: \
   /Users/tr1fecta/Tweaks/bruhshotstm/.theos/obj/arm64e/Tweak.xm.mm \
   /Users/tr1fecta/theos/Prefix.pch \
   /Users/tr1fecta/theos/vendor/include/_Prefix/BackwardsCompat.h \

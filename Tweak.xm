@@ -77,7 +77,6 @@ void soundCompleteCallback(SystemSoundID soundID, void * clientData) {
 
 
 %hookf(void, AudioServicesPlaySystemSound, SystemSoundID inSystemSoundID) {
-	NSLog(@"[SS]: SCREENSHOT SOUND IN FUNCTION: %d", screenshotSoundEnabled);
 	if (inSystemSoundID == kPhotoShutterSystemSound) {
 		if (GetPrefBool(nil, @"kScreenshotSoundEnabled", NO)) {
 			// create a NSURL with the file path of the wav bruh sound file

@@ -1,6 +1,6 @@
 Package: com.tr1fectacam.bruhshotstm
 Name: BruhShotsTM
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, com.rpetrich.rocketbootstrap (>= 1.0.7~beta1)
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
 Architecture: iphoneos-arm
 Description: BruhShotsTM, bruh your screenshots and watermark them!
 Maintainer: Tr1Fecta
