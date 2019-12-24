@@ -165,6 +165,7 @@ static void myOtherLoadPrefsThingAccordingToScoob() {
 
 %ctor {
 	if ([NSBundle.mainBundle.bundleIdentifier isEqual:@"com.apple.springboard"]) {
+		NSLog(@"[TR1TWEAK]: LOAD SERVER 111111111");
 		[BruhShotsTMServer load];
 		loadPrefs();
 		CPDistributedMessagingCenter *center = [CPDistributedMessagingCenter centerNamed:@"com.tr1fecta.bruhshotstm.prefs"];
