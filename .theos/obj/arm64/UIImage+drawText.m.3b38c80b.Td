@@ -1,4 +1,4 @@
-/Users/tr1fecta/Tweaks/bruhshotstm/.theos/obj/arm64/UIImage+drawText.m.bbfecf0a.o: \
+/Users/tr1fecta/Tweaks/bruhshotstm/.theos/obj/arm64/UIImage+drawText.m.3b38c80b.o: \
   UIImage+drawText.m /Users/tr1fecta/theos/Prefix.pch \
   /Users/tr1fecta/theos/vendor/include/_Prefix/BackwardsCompat.h \
   /Users/tr1fecta/theos/vendor/include/_Prefix/IOSMacros.h \

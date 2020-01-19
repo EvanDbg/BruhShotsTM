@@ -57,6 +57,7 @@ static id GetObjectForKey(NSDictionary *settings, NSString* key, id fallback) {
 
 	id value = [settings objectForKey:key];
 	return value ? value : fallback;
+
 }
 
 static double GetPrefDouble(NSDictionary *settings, NSString* key, double fallback) {
@@ -164,6 +165,9 @@ static void myOtherLoadPrefsThingAccordingToScoob() {
 }
 
 %ctor {
+	if (![NSProcessInfo processInfo]) return;
+    
+	
 	if ([NSBundle.mainBundle.bundleIdentifier isEqual:@"com.apple.springboard"]) {
 		NSLog(@"[TR1TWEAK]: LOAD SERVER 111111111");
 		[BruhShotsTMServer load];

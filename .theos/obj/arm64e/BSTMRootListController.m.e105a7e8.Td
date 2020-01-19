@@ -1,4 +1,4 @@
-/Users/tr1fecta/Tweaks/bruhshotstm/.theos/obj/arm64e/BSTMRootListController.m.97593a2a.o: \
+/Users/tr1fecta/Tweaks/bruhshotstm/.theos/obj/arm64e/BSTMRootListController.m.e105a7e8.o: \
   BSTMRootListController.m /Users/tr1fecta/theos/Prefix.pch \
   /Users/tr1fecta/theos/vendor/include/_Prefix/BackwardsCompat.h \
   /Users/tr1fecta/theos/vendor/include/_Prefix/IOSMacros.h \

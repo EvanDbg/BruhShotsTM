@@ -1,15 +1,14 @@
-export TARGET = iphone:clang:12.1:11.0
+export TARGET = iphone:clang::11.0
 include $(THEOS)/makefiles/common.mk
 
 ARCHS = arm64 arm64e
 
 BUNDLE_NAME = prefs
 
-prefs_FILES = BSTMRootListController.m
+prefs_FILES = BSTMRootListController.m TR1LinkCell.m TR1TableCell.m TR1TwitterCell.m
 prefs_INSTALL_PATH = /Library/PreferenceBundles
 prefs_FRAMEWORKS = UIKit
 prefs_PRIVATE_FRAMEWORKS = Preferences
-prefs_EXTRA_FRAMEWORKS = Cephei CepheiPrefs
 prefs_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/bundle.mk

@@ -147,13 +147,13 @@
 			<string>Honorable mentions: Qwertyuiop1379 (RBS), Cameren R.</string>
 		</dict>
 		<dict>
-        	<key>cellClass</key>
-        	<string>HBTwitterCell</string>
-        	<key>label</key>
-        	<string>Tr1Fecta</string>
-        	<key>user</key>
-        	<string>FectaTr1</string>
-        </dict>
+			<key>cellClass</key>
+			<string>TR1TwitterCell</string>
+			<key>label</key>
+			<string>Tr1Fecta</string>
+			<key>accountName</key>
+			<string>FectaTr1</string>
+		</dict>
 	</array>
 	<key>title</key>
 	<string>BruhShotsTM</string>
