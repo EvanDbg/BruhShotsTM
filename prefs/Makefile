@@ -3,13 +3,13 @@ include $(THEOS)/makefiles/common.mk
 
 ARCHS = arm64 arm64e
 
-BUNDLE_NAME = prefs
+BUNDLE_NAME = bruhshotsprefs
 
-prefs_FILES = BSTMRootListController.m TR1LinkCell.m TR1TableCell.m TR1TwitterCell.m
-prefs_INSTALL_PATH = /Library/PreferenceBundles
-prefs_FRAMEWORKS = UIKit
-prefs_PRIVATE_FRAMEWORKS = Preferences
-prefs_CFLAGS = -fobjc-arc
+bruhshotsprefs_FILES = BSTMRootListController.m TR1LinkCell.m TR1TableCell.m TR1TwitterCell.m
+bruhshotsprefs_INSTALL_PATH = /Library/PreferenceBundles
+bruhshotsprefs_FRAMEWORKS = UIKit
+bruhshotsprefs_PRIVATE_FRAMEWORKS = Preferences
+bruhshotsprefs_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 

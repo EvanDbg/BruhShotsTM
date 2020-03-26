@@ -138,7 +138,6 @@ void soundCompleteCallback(SystemSoundID soundID, void * clientData) {
 %end
 
 
-
 static void loadPrefs() {
 	tweakEnabled = GetPrefBool(nil, @"kTweakEnabled", NO);
     screenshotSoundEnabled = GetPrefBool(nil, @"kScreenshotSoundEnabled", NO);

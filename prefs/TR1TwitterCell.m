@@ -94,7 +94,7 @@
 		return;
 	}
 	// TODO: fix this
-	self.avatarImage = [UIImage imageNamed:[NSString stringWithFormat:@"/Library/PreferenceBundles/prefs.bundle/%@.png", @"FectaTr1"]];
+	self.avatarImage = [UIImage imageNamed:[NSString stringWithFormat:@"/Library/PreferenceBundles/bruhshotsprefs.bundle/%@.png", @"FectaTr1"]];
 	/*
 	dispatch_async(dispatch_get_global_queue(0,0), ^{
 		NSData * data = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://twitter.com/%@/profile_image?size=original", _user]]];

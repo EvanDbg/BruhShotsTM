@@ -6,4 +6,3 @@
 -(void)_saveImageToPhotoLibrary:(UIImage *)image environmentDescription:(id)env;
 -(WatermarkRotation)currentRotation;
 @end
-
